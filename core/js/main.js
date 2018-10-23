@@ -102,7 +102,7 @@ $(document).ready(function (){
             $("#logo-img").removeClass('logo-image-hide').addClass('logo-image-show');
             $("#logo-img-dark").addClass('logo-image-hide').removeClass('logo-image-show');
             $('span').removeClass('span-change');
-            document.title = 'Christian Nguyen';
+            document.title = 'Alexander Suh';
         }else{
             $("#logo-img").addClass('logo-image-hide').removeClass('logo-image-show');
             $("#logo-img-dark").removeClass('logo-image-hide').addClass('logo-image-show');
@@ -111,25 +111,25 @@ $(document).ready(function (){
         }
         if($(window).scrollTop() >= $("#section1").offset().top - 50  && $(window).scrollTop() < $("#section2").offset().top - 50 ){
             $("#tab1").css("border-bottom","2px solid #006306");
-            document.title = 'Christian Nguyen | Developer';
+            document.title = 'Alexander Suh | About';
         }else{
             $("#tab1").css("border-bottom","2px solid rgba(0,0,0,0)");
         }
         if($(window).scrollTop() >= $("#section2").offset().top - 50  && $(window).scrollTop() < $("#section3").offset().top - 50 ){
             $("#tab2").css("border-bottom","2px solid #006306");
-            document.title = 'Christian Nguyen | Projects';
+            document.title = 'Alexander Suh | Photos';
         }else{
             $("#tab2").css("border-bottom","2px solid rgba(0,0,0,0)");
         }
         if($(window).scrollTop() >= $("#section3").offset().top - 50  && $(window).scrollTop() < $("#section4").offset().top - 50 ){
             $("#tab3").css("border-bottom","2px solid #006306");
-            document.title = 'Christian Nguyen | Business';
+            document.title = 'Alexander Suh | Resume';
         }else{
             $("#tab3").css("border-bottom","2px solid rgba(0,0,0,0)");
         }
         if($(window).scrollTop() >= $("#section4").offset().top - 50 ){
             $("#tab4").css("border-bottom","2px solid #006306");
-            document.title = 'Christian Nguyen | Connect';
+            document.title = 'Alexander Suh | Connect';
         }else{
             $("#tab4").css("border-bottom","2px solid rgba(0,0,0,0)");
         }
